@@ -20,6 +20,10 @@ composer require hypervix/execl-date-converter
 ## Usage
 
 ```
+require('vendor/autoload.php');
+
+use Hypervix\ExcelDateConverter\ExcelDateConverter;
+
 // Convert Excel serial date to timestamp
 $dateConverter = ExeclDateConverter::date(44561);
 echo $dateConverter->format('Y-m-d'); // Output: 2022-01-01
