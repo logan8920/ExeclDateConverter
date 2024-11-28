@@ -22,7 +22,7 @@ composer require hypervix/execl-date-converter
 ```
 require('vendor/autoload.php');
 
-use Hypervix\ExcelDateConverter\ExcelDateConverter;
+use Hypervix\ExeclDateConverter\ExeclDateConverter;
 
 // Convert Excel serial date to timestamp
 $dateConverter = ExeclDateConverter::date(44561);
