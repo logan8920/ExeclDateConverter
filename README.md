@@ -14,7 +14,7 @@ Excel Date Converter is a PHP utility package for handling and converting Excel-
 To use this package, you can install it via Composer:
 
 ```bash
-composer require hypervix/execl-date-converter
+composer require hypervix/excel-date-converter
 ``` 
 
 ## Usage
